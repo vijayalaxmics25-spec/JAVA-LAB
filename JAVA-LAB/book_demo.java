@@ -52,9 +52,9 @@ public class BookDemo{
          for(int i=0;i<n;i++){
               System.out.println("Enter details of book "+(i+1)+":");
               System.out.print("Name: ");
-              String name=sc.nextLine();
+              String name=sc.next();
               System.out.print("Author: ");
-              String author=sc.nextLine();
+              String author=sc.next();
               System.out.print("Price: ");
               double price=sc.nextDouble();
               System.out.print("Number of pages: ");
@@ -68,4 +68,5 @@ public class BookDemo{
     }
     sc.close();
 }
+
 }
